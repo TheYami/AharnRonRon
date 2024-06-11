@@ -1,4 +1,37 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: ['yamamoritrading.com',
+            'www.pholfoodmafia.com',
+            'img.wongnai.com',
+            'img-global.cpcdn.com',
+            'img.kapook.com',
+            'food-heal.com',
+            'static.thairath.co.th',
+            'i.ytimg.com',
+            'www.earwthai.co.th',
+            'cms.dmpcdn.com',
+            'img.salehere.co.th',
+            'www.deksomboon.com',
+            'www.japankakkoii.com',
+            'malibrand.com',
+            'food.mthai.com',
+            'propertyhub.sgp1.cdn.digitaloceanspaces.com',
+            '"www.cpbrandsite.com',
+            'www.cpbrandsite.com',
+            'cdn8.devgodigit.net',
+            'www.jmthaifood.com',
+            'res.cloudinary.com',
+            'www.simahealthcare.com',
+            'spfresh.co.th',
+            'image.makewebcdn.com',
+           'st.bigc-cs.com',
+            'kaitomkaabonsothon.yellowpages.co.th',
+            'www.kitchenwork.co.th',
+            'www.calforlife.com',
+            'hdmall.co.th',
+            's.isanook.com'],
+      },
+};
 
 export default nextConfig;
